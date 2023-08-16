@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Kalkulator Segitiga</title>
+</head>
+<body>
+    <header>
+        <h1>Kalkultor Luas dan Keliling Segitiga</h1>
+    </header>
+    <img src="img/gambar_segitiga siku.jpeg">
+    
+    <main>
+        <section class="input-section">
+            <label for="tinggi-input">Tinggi Segitiga</label>
+            <input type="number" name="tinggi" id="tinggi-input" placeholder="0">
+            <label for="alas-input">Alas Segitiga</label>
+            <input type="number" id="alas-input" placeholder="0">
+            <label for="luas">Hasil Luas</label>
+            <input type="text" id="luas" disabled="true" size="5" value="">
+            <br>
+          
+            <section>
+                <button type="button" value="luas" onclick="submit()">Luas</button>
+                <button type="button" value="reset" onclick="reset()">reset luas</button>
+            </section>
+        </section>
+        <br>
+        <img src="img/gambar_segitiga siku.jpeg"> 
+        <section class="input-section">
+            <label for="sisiA">S1</label>
+            <input type="number" name="tinggi" id="sisiA" placeholder="0">
+            <label for="sisiB">S2</label>
+            <input type="number" id="sisiB" placeholder="0">
+            <label for="sisiC">S3</label>
+            <input type="number" id="sisiC" placeholder="0">
+            <label for="keliling">Hasil Keliling</label>
+            <input type="text" id="keliling" disabled="true" size="5" value="">
+            <br>
+
+            <section>
+                <button type="button" value="luas" onclick="submit()">Keliling</button>
+                <button type="button" value="reset" onclick="reset()">reset keliling</button>
+    </main>
+</body>
+</html>

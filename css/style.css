@@ -1,0 +1,73 @@
+
+body{
+  background :url(https://p4.wallpaperbetter.com/wallpaper/330/785/205/equations-math-wallpaper-preview.jpg);
+  font-family: monospace;
+  
+}
+
+header{
+  background-color: aliceblue;
+  color: black;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column ;
+  font-family: monospace;
+}
+
+label{
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: blue;
+}
+
+img {
+  margin-top: 5px;
+  margin: 5px;
+}
+input{
+  padding: 10px;
+  border: 2px solid #512881;
+  font-size: 16px;
+  outline: none;
+}
+#luas {
+  background-color: white;
+}
+
+#keliling{
+  background-color: white;
+}
+
+input:focus{
+  border-color: #512881;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: rgb(20, 17, 17);
+  background-color: rgb(209, 197, 197);
+}
+
+button:hover{
+  background-color: chocolate;
+}
+
+button:active{
+  transform: translateY(10px);
+  background-color: coral;
+}
